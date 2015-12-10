@@ -1,0 +1,37 @@
+import java.util.*;
+public class ROSHABO
+{
+	public static void main(String args[])
+	{	otherstuff jules = new otherstuff();
+		jules.greetings();
+		
+	}
+}
+class otherstuff
+{
+
+	public otherstuff()
+	{
+		
+	}
+	public void greetings()
+	{
+		 Scanner yan = new Scanner(System.in);
+		System.out.println("<-----Welcome to Robert and Andreana's Rock Paper Sicorsodrsor adventure----->");
+		System.out.println("      Enter Player 1's Name:    ");
+		String name = yan.nextLine();
+		System.out.println("      Welcome " + name + " to the THUNDER DOME");
+	}
+	
+	public int player1choice()
+	{
+		System.out.println("<---------------------------------------->");
+		System.out.println("      What is your choice of:    ");
+	}
+}
+class Computerplayer
+{
+	
+}
+	
+
